@@ -1,0 +1,19 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    cursor: none;
+}
+
+canvas {
+    display: block;
+}
+
+@media (hover: none) and (pointer: coarse) {
+    body {
+        cursor: auto;
+    }
+}
