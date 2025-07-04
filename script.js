@@ -1,8 +1,8 @@
 const canvas = document.getElementById('starrySkyCanvas');
 const ctx = canvas.getContext('2d');
 
-let currentName = "NELLY";
-let currentZodiac = "Aries";
+let currentName = "DANIELA";
+let currentZodiac = "Pisces";
 
 const letterMap = {
     'A': {
@@ -19,7 +19,7 @@ const letterMap = {
     },
     'D': {
         points: [{x: 0, y: 0}, {x: 0, y: 1}, {x: 1, y: .75}, {x: 1, y: .25}],
-        lines: [[0, 1], [0, 2], [2, 3], [3, 0]]
+        lines: [[0, 1], [1, 2], [2, 3], [3, 0]]
     },
     'E': {
         points: [{x: 0, y: 0}, {x: 0, y: 1}, {x: 1, y: 0}, {x: .5, y: .5}, {x: 1, y: 1}],
