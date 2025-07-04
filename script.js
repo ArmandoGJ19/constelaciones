@@ -1,8 +1,8 @@
 const canvas = document.getElementById('starrySkyCanvas');
 const ctx = canvas.getContext('2d');
 
-let currentName = "DANIELA";
-let currentZodiac = "Pisces";
+let currentName = "NELLY";
+let currentZodiac = "Aries";
 
 const letterMap = {
     'A': {
